@@ -4,8 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "tsc",
     "start": "node index.js"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "typescript": "^5.7.2"
   }

@@ -1,3 +1,3 @@
-import 'module-b';
+import "../module-b/index.js";
 
-console.log('module-a');
+console.log("module-a");
