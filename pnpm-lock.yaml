@@ -30,7 +30,11 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
 
-  packages/using-external-esmodule: {}
+  packages/using-external-esmodule:
+    dependencies:
+      '@uraitakahito/hello-esmodule':
+        specifier: ^1.0.2
+        version: 1.0.2
 
   packages/using-internal-esmodule:
     dependencies:
@@ -153,6 +157,9 @@ packages:
 
   '@ungap/structured-clone@1.2.1':
     resolution: {integrity: sha512-fEzPV3hSkSMltkw152tJKNARhOupqbH96MZWyRjNaYZOMIzbrTeQDG+MTc6Mr2pgzFQzFxAfmhGDNP5QK++2ZA==}
+
+  '@uraitakahito/hello-esmodule@1.0.2':
+    resolution: {integrity: sha512-rBvC8rFBMIIUzVNnGLTD7tW3+1xyPCwVPIoiVlkrGt9ueTC01GLJR/TIc+Ihz5L+zIwRhFfBna31vsDnJHZyyQ==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1160,6 +1167,8 @@ snapshots:
       eslint-visitor-keys: 3.4.3
 
   '@ungap/structured-clone@1.2.1': {}
+
+  '@uraitakahito/hello-esmodule@1.0.2': {}
 
   acorn-jsx@5.3.2(acorn@8.14.0):
     dependencies:
