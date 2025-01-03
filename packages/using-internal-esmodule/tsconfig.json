@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "outDir": "../../dist/using-internal-esmodule",
+    "composite": true,
+    "sourceMap": true
+  },
+  "references": [{ "path": "../exported-esmodule" }]
+}
