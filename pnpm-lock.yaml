@@ -30,23 +30,11 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
 
-  packages/module-a:
-    dependencies:
-      module-b:
-        specifier: workspace:*
-        version: link:../module-b
-    devDependencies:
-      typescript:
-        specifier: ^5.7.2
-        version: 5.7.2
-
-  packages/module-b:
-    devDependencies:
-      typescript:
-        specifier: ^5.7.2
-        version: 5.7.2
-
   packages/using-internal-esmodule:
+    dependencies:
+      exported-esmodule:
+        specifier: workspace:*
+        version: link:../exported-esmodule
     devDependencies:
       typescript:
         specifier: ^5.7.2
