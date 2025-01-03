@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@uraitakahito/hello-esmodule": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
   }
 }
