@@ -46,6 +46,12 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
 
+  packages/using-internal-esmodule:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+
 packages:
 
   '@eslint-community/eslint-utils@4.4.1':
