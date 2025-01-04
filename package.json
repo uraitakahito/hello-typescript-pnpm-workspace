@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "pnpm -F \"*\" build",
-    "cleandep": "rm -rf node_modules && pnpm -r exec rm -rf node_modules"
+    "cleandep": "rm -rf node_modules && pnpm -r exec rm -rf node_modules index.d.ts index.js index.js.map tsconfig.tsbuildinfo"
   },
   "keywords": [],
   "author": "",
