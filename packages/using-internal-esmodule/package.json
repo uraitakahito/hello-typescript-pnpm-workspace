@@ -15,7 +15,7 @@
     "dist"
   ],
   "dependencies": {
-    "exported-esmodule": "workspace:*"
+    "named-exports-no-default": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
