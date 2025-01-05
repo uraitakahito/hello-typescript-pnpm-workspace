@@ -16,7 +16,8 @@
     "dist"
   ],
   "dependencies": {
-    "named-exports-no-default": "workspace:*"
+    "named-exports-no-default": "workspace:*",
+    "named-exports-with-default": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.7.2"

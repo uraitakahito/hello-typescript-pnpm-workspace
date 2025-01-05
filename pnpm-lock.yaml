@@ -30,6 +30,12 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
 
+  packages/named-exports-with-default:
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+
   packages/using-external-esmodule:
     dependencies:
       '@uraitakahito/hello-esmodule':
@@ -45,6 +51,9 @@ importers:
       named-exports-no-default:
         specifier: workspace:*
         version: link:../named-exports-no-default
+      named-exports-with-default:
+        specifier: workspace:*
+        version: link:../named-exports-with-default
     devDependencies:
       typescript:
         specifier: ^5.7.2
