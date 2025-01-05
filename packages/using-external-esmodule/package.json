@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node index.js"
+    "start": "node index.js",
+    "cleandep": "rm -rf node_modules index.d.ts index.js index.js.map tsconfig.tsbuildinfo"
   },
   "keywords": [],
   "author": "",
