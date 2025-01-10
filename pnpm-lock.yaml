@@ -24,6 +24,19 @@ importers:
         specifier: ^18.0.0
         version: 18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.2))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1))(eslint@8.57.1)
 
+  packages/import-internal-esmodule:
+    dependencies:
+      named-exports-no-default:
+        specifier: workspace:*
+        version: link:../named-exports-no-default
+      named-exports-with-default:
+        specifier: workspace:*
+        version: link:../named-exports-with-default
+    devDependencies:
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
+
   packages/named-exports-no-default:
     devDependencies:
       typescript:
@@ -41,19 +54,6 @@ importers:
       '@uraitakahito/hello-esmodule':
         specifier: ^1.0.2
         version: 1.0.2
-    devDependencies:
-      typescript:
-        specifier: ^5.7.2
-        version: 5.7.2
-
-  packages/using-internal-esmodule:
-    dependencies:
-      named-exports-no-default:
-        specifier: workspace:*
-        version: link:../named-exports-no-default
-      named-exports-with-default:
-        specifier: workspace:*
-        version: link:../named-exports-with-default
     devDependencies:
       typescript:
         specifier: ^5.7.2
