@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "typescript": "catalog:"
   },
   "scripts": {
     "build": "tsc",

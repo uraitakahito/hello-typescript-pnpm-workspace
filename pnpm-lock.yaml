@@ -4,6 +4,12 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    typescript:
+      specifier: ^5.7.3
+      version: 5.7.3
+
 importers:
 
   .:
@@ -24,7 +30,7 @@ importers:
         specifier: ^18.0.0
         version: 18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1))(eslint@8.57.1)
       typescript:
-        specifier: ^5.7.3
+        specifier: 'catalog:'
         version: 5.7.3
 
   packages/import-external-esmodule:
@@ -34,7 +40,7 @@ importers:
         version: 1.0.2
     devDependencies:
       typescript:
-        specifier: ^5.7.3
+        specifier: 'catalog:'
         version: 5.7.3
 
   packages/import-internal-esmodule:
@@ -47,7 +53,7 @@ importers:
         version: link:../named-exports-with-default
     devDependencies:
       typescript:
-        specifier: ^5.7.3
+        specifier: 'catalog:'
         version: 5.7.3
 
   packages/local-import-checker:
@@ -65,13 +71,13 @@ importers:
   packages/named-exports-no-default:
     devDependencies:
       typescript:
-        specifier: ^5.7.3
+        specifier: 'catalog:'
         version: 5.7.3
 
   packages/named-exports-with-default:
     devDependencies:
       typescript:
-        specifier: ^5.7.3
+        specifier: 'catalog:'
         version: 5.7.3
 
 packages:
