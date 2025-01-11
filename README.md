@@ -4,6 +4,7 @@
 % pnpm store prune
 % pnpm cleandep
 % pnpm install
+% pnpm -F "*" build
 ```
 
 ## To upgrade packages
