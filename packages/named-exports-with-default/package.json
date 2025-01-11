@@ -1,0 +1,15 @@
+{
+  "name": "named-exports-with-default",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cleandep": "rm -rf node_modules index.d.ts index.d.ts.map index.js index.js.map tsconfig.tsbuildinfo"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "description": ""
+}

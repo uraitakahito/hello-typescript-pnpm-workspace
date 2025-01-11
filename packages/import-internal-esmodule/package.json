@@ -1,17 +1,17 @@
 {
-  "name": "import-external-esmodule",
+  "name": "import-internal-esmodule",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "cleandep": "rm -rf node_modules index.d.ts index.d.ts.map index.js index.js.map tsconfig.tsbuildinfo"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "description": "",
   "dependencies": {
-    "@uraitakahito/hello-esmodule": "^1.0.2"
+    "named-exports-no-default": "workspace:*",
+    "named-exports-with-default": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.7.3"

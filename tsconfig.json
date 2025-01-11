@@ -160,6 +160,10 @@
     "noPropertyAccessFromIndexSignature": true
   },
   "references": [
-    { "path": "./packages/import-external-esmodule" }
+    { "path": "./packages/import-external-esmodule" },
+    { "path": "./packages/import-internal-esmodule" },
+    { "path": "./packages/local-import-checker" },
+    { "path": "./packages/named-exports-no-default" },
+    { "path": "./packages/named-exports-with-default" }
   ],
 }

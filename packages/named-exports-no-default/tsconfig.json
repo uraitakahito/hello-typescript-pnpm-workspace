@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    // "outDir": "../../dist/named-exports-no-default",
+    "composite": true,
+  }
+}

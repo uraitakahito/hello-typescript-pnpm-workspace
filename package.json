@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b",
-    "cleandep": "pnpm -r cleandep && rm -rf dist node_modules tsconfig.tsbuildinfo"
+    "cleandep": "pnpm -r cleandep && rm -rf dist node_modules tsconfig.tsbuildinfo",
+    "watch": "tsc -b --watch"
   },
   "keywords": [],
   "author": "",

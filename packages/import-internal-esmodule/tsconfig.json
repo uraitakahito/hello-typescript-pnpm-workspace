@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    // "outDir": "../../dist/import-internal-esmodule",
+    "composite": true
+  },
+  "references": [
+    { "path": "../named-exports-no-default" },
+    { "path": "../named-exports-with-default" }
+  ]
+}
