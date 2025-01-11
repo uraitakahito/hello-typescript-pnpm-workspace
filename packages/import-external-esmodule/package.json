@@ -1,17 +1,20 @@
 {
-  "name": "named-exports-no-default",
+  "name": "import-external-esmodule",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b",
     "start": "node index.js",
     "cleandep": "rm -rf node_modules index.d.ts index.d.ts.map index.js index.js.map tsconfig.tsbuildinfo"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@uraitakahito/hello-esmodule": "^1.0.2"
+  },
   "devDependencies": {
     "typescript": "^5.7.3"
   }

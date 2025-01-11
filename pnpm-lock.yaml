@@ -27,32 +27,7 @@ importers:
         specifier: ^5.7.3
         version: 5.7.3
 
-  packages/import-internal-esmodule:
-    dependencies:
-      named-exports-no-default:
-        specifier: workspace:*
-        version: link:../named-exports-no-default
-      named-exports-with-default:
-        specifier: workspace:*
-        version: link:../named-exports-with-default
-    devDependencies:
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
-
-  packages/named-exports-no-default:
-    devDependencies:
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
-
-  packages/named-exports-with-default:
-    devDependencies:
-      typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
-
-  packages/using-external-esmodule:
+  packages/import-external-esmodule:
     dependencies:
       '@uraitakahito/hello-esmodule':
         specifier: ^1.0.2

@@ -83,7 +83,7 @@
     "sourceMap": true /* Create source map files for emitted JavaScript files. */,
     // "inlineSourceMap": true,                          /* Include sourcemap files inside the emitted JavaScript. */
     // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
-    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    // "outDir": "./dist" /* Specify an output folder for all emitted files. */,
     // "removeComments": true,                           /* Disable emitting comments. */
     // "noEmit": true,                                   /* Disable emitting files from a compilation. */
     // "importHelpers": true,                            /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
@@ -160,9 +160,6 @@
     "noPropertyAccessFromIndexSignature": true
   },
   "references": [
-    { "path": "./packages/import-internal-esmodule" },
-    { "path": "./packages/named-exports-no-default" },
-    { "path": "./packages/named-exports-with-default" },
-    { "path": "./packages/using-external-esmodule" }
+    { "path": "./packages/import-external-esmodule" }
   ],
 }
