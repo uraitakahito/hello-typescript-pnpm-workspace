@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "pnpm -F \"*\" build",
-    "cleandep": "pnpm -r cleandep && rm -rf node_modules tsconfig.tsbuildinfo"
+    "build": "tsc -b",
+    "cleandep": "pnpm -r cleandep && rm -rf dist node_modules tsconfig.tsbuildinfo"
   },
   "keywords": [],
   "author": "",

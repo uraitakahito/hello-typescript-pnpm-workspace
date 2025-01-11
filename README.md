@@ -4,6 +4,12 @@
 % pnpm store prune
 % pnpm cleandep
 % pnpm install
+% tsc -b
+```
+
+If you want to build all packages together:
+
+```console
 % pnpm -F "*" build
 ```
 
